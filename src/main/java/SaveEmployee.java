@@ -26,6 +26,7 @@ public class SaveEmployee {
 //	    	et.commit();
 //	    	System.out.println("Data Saved Successfully");
 //
+//			 to fetch , using JPQL
 	Query query = em.createQuery("select e from Employee e");
 			
 	    	List <Employee> li = query.getResultList();
